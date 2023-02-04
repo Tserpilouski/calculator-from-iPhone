@@ -18,7 +18,6 @@ const buttonC = document.getElementById("but_c");
 const buttonProc = document.getElementById("but_%");
 const buttonPlMin = document.getElementById("but_+-");
 
-
 let a = 0;
 let prtext = "";
 let b = 0;
@@ -47,6 +46,7 @@ button2.addEventListener("click", () => {
 
     document.getElementById("label").innerHTML = prtext;
 })
+
 button3.addEventListener("click", () => {
     if(prtext == a){
         prtext = "3";
@@ -141,8 +141,6 @@ buttonComma.addEventListener("click", () => {
     document.getElementById("label").innerHTML = prtext;
 });
 
-console.log(prtext.includes("."))
-
 buttonPlus.addEventListener("click", () => {
     a = Number(prtext);
     prtext = a;
@@ -188,7 +186,6 @@ buttonPlMin.addEventListener("click", () => {
     }
     document.getElementById("label").innerHTML = prtext;
 })
-
 
 buttonC.addEventListener("click", () => {
     prtext = "0";
