@@ -18,17 +18,6 @@ const buttonC = document.getElementById("but_c");
 const buttonProc = document.getElementById("but_%");
 const buttonPlMin = document.getElementById("but_+-");
 
-// function nameAction(action){
-//     if(action === "+" || action === "-"){
-//         return prtext = "";
-//     }
-// }
-
-// function deleteZero(prtext){
-//     if(prtext == "0"){
-//         return prtext = "";
-//     }
-// }
 
 let a = 0;
 let prtext = "";
